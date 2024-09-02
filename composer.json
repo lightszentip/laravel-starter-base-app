@@ -16,13 +16,14 @@
         "laravel/sail": "^1.31",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.4",
+        "pestphp/pest": "^2.35",
         "phpat/phpat": "^0.10.18",
+        "phpmd/phpmd": "@stable",
         "psalm/plugin-laravel": "^v2.11.0",
         "psalm/plugin-mockery": "^1.1",
         "psalm/plugin-phpunit": "^0.19.0",
         "squizlabs/php_codesniffer": "3.10.2",
-        "vimeo/psalm": "^5.25.0",
-        "phpmd/phpmd" : "@stable"
+        "vimeo/psalm": "^5.25.0"
     },
     "autoload": {
         "psr-4": {
