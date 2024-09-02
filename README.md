@@ -9,3 +9,7 @@
 - [x] [PHPMD](./.github/workflows/phpmd.yml)
 - [x] [PSALM](./.github/workflows/psalm.yml)
 - [x] [PHPCodeSniffer](./.github/workflows/phpcodesniffer.yml)
+
+### Addons
+
+- [x] Jetstream
