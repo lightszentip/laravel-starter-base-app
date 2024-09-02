@@ -13,3 +13,4 @@
 ### Addons
 
 - [x] Jetstream
+- [x] MaryUI
