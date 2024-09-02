@@ -1,0 +1,28 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/phpat/phpat/extension.neon
+
+parameters:
+
+    paths:
+        - app/
+        - tests/Architecture
+
+    # Level 9 is the highest level
+    level: 5 # 0 because 1 have a problem with laravel create in models
+    excludePaths:
+        analyse:
+            - tests/Pest.php
+#    ignoreErrors:
+#        - '#PHPDoc tag @var#'
+#
+#    excludePaths:
+#        - ./*/*/FileToBeExcluded.php
+#
+#    checkMissingIterableValueType: false
+
+services:
+    -
+        class: Tests\Architecture\Structure
+        tags:
+            - phpat.test
