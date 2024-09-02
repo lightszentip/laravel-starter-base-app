@@ -42,5 +42,12 @@ composer require --dev "psalm/plugin-mockery"
 }
 ```
 
+## Security
+
 ```shell
+composer require "graham-campbell/security:^11.2"
+php artisan vendor:publish --provider="GrahamCampbell\Security\SecurityServiceProvider"
+```
+
+
 
