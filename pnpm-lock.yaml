@@ -24,7 +24,7 @@ importers:
         specifier: ^1.0
         version: 1.0.5(vite@5.4.2)
       postcss:
-        specifier: ^8.4.32
+        specifier: ^8.4.43
         version: 8.4.43
       tailwindcss:
         specifier: ^3.4.0
