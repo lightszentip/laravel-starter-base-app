@@ -5,7 +5,7 @@
     "separateMajorMinor": true,
     "separateMultipleMajor": true,
     "separateMultipleMinor": true,
-      "lockFileMaintenance": { "enabled": true },
+    "lockFileMaintenance": { "enabled": true },
     "packageRules": [
          {
       "depTypeList": [ "devDependencies", "require-dev" ],
@@ -14,7 +14,7 @@
     },
         {
       "depTypeList": [ "devDependencies", "require-dev" ],
-      "updateTypes": [ "major",
+      "updateTypes": ["major"],
       "groupName": "devDependencies (major)"
     },
     {
