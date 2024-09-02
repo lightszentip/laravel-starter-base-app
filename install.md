@@ -57,4 +57,10 @@ php artisan jetstream:install livewire --teams --dark
 npm install && npm run dev
 ```
 
+## MaryUI
+
+```shell
+composer require robsontenorio/mary
+php artisan mary:install
+
 
