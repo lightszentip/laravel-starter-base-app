@@ -1,20 +1,43 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "baseBranches": ["main", "jetstream","filament"],
-    "extends": ["config:best-practices",":enableVulnerabilityAlertsWithLabel(security)", "group:recommended",":automergePatch"],
-    "separateMajorMinor": true,
-    "separateMultipleMajor": true,
-    "separateMultipleMinor": true,
-      "lockFileMaintenance": { "enabled": true },
-    "packageRules": [
-         {
-      "depTypeList": [ "devDependencies", "require-dev" ],
-      "updateTypes": [ "patch", "minor", "digest"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranches": [
+    "main",
+    "jetstream",
+    "filament"
+  ],
+  "extends": [
+    "config:best-practices",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    "group:recommended",
+    ":automergePatch"
+  ],
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
+  "separateMultipleMinor": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "devDependencies",
+        "require-dev"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "digest"
+      ],
       "groupName": "devDependencies (non-major)"
     },
-        {
-      "depTypeList": [ "devDependencies", "require-dev" ],
-      "updateTypes": [ "major",
+    {
+      "matchDepTypes": [
+        "devDependencies",
+        "require-dev"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
       "groupName": "devDependencies (major)"
     },
     {
@@ -33,16 +56,16 @@
         "OpenSSF"
       ]
     },
-        {
+    {
       "groupName": "all non-minor and non major dependencies",
       "groupSlug": "all-patch",
-      "matchPackagePatterns": [
-        "*"
-      ],
       "matchUpdateTypes": [
         "patch"
       ],
-    "automerge" : true
+      "automerge": true,
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ]
 }
