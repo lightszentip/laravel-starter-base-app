@@ -50,9 +50,4 @@ class User extends Authenticatable
         ];
     }
 
-    protected static function newFactory(): \Illuminate\Database\Eloquent\Factories\Factory|UserFactory
-    {
-        return UserFactory::new();
-    }
-
 }
