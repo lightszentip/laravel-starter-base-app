@@ -16,6 +16,7 @@
         "php": "^8.2",
         "graham-campbell/security": "11.2",
         "laravel/framework": "^11.21",
+        "laravel/pennant": "^1.11",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
