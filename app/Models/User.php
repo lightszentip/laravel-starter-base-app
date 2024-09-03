@@ -30,7 +30,7 @@ class User extends Authenticatable
     /**
      * The attributes that should be hidden for serialization.
      *
-     * @var array<array-key, string>
+     * @var array<int, string>
      */
     protected $hidden = [
         'password',
