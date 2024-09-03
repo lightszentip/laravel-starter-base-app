@@ -33,7 +33,7 @@ importers:
         specifier: ^3.4.10
         version: 3.4.10
       vite:
-        specifier: ^5.0
+        specifier: ^5.4.2
         version: 5.4.2
 
 packages:
