@@ -12,6 +12,7 @@ class TeamPolicy
 
     /**
      * Determine whether the user can view any models.
+     * @psalm-suppress PossiblyUnusedParam
      */
     public function viewAny(User $user): bool
     {
@@ -28,6 +29,9 @@ class TeamPolicy
 
     /**
      * Determine whether the user can create models.
+     * @param User $user
+     * @return bool
+     * @psalm-suppress PossiblyUnusedParam
      */
     public function create(User $user): bool
     {

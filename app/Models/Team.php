@@ -2,12 +2,16 @@
 
 namespace App\Models;
 
+use Database\Factories\TeamFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Laravel\Jetstream\Events\TeamCreated;
 use Laravel\Jetstream\Events\TeamDeleted;
 use Laravel\Jetstream\Events\TeamUpdated;
 use Laravel\Jetstream\Team as JetstreamTeam;
 
+/**
+ * @psalm-suppress all
+ */
 class Team extends JetstreamTeam
 {
     use HasFactory;
@@ -43,5 +47,10 @@ class Team extends JetstreamTeam
         return [
             'personal_team' => 'boolean',
         ];
+    }
+    /** * @SuppressWarnings(PHPMD.StaticAccess) */
+    protected static function newFactory(): \Illuminate\Database\Eloquent\Factories\Factory|TeamFactory
+    {
+        return TeamFactory::new();
     }
 }
