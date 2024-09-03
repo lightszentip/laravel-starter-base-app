@@ -13,7 +13,7 @@
         <directory name="database/seeders"/>
         <ignoreFiles>
             <directory name="vendor"/>
-            <file name="app\Providers\AppServiceProvider.php"/>
+            <file name="app/Providers/AppServiceProvider.php"/>
         </ignoreFiles>
     </projectFiles>
     <plugins>
