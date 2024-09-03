@@ -3,6 +3,23 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lightszentip/laravel-starter-base-app.svg?style=flat-square)](https://packagist.org/packages/lightszentip/laravel-starter-base-app)
 [![Total Downloads](https://img.shields.io/packagist/dt/lightszentip/laravel-starter-base-app.svg?style=flat-square)](https://packagist.org/packages/lightszentip/laravel-starter-base-app)
 
+## Use
+
+```shell
+composer create-project lightszentip/laravel-starter-base-app
+```
+
+Setup your env:
+```shell
+cd laravel-starter-base-app
+cp .env.example .env
+```
+Run migration & seeder:
+```shell
+php artisan migrate
+php artisan db:seed
+```
+
 ## Implement
 
 ### CodeQuality
