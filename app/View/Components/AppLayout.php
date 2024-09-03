@@ -3,6 +3,7 @@
 namespace App\View\Components;
 
 use Illuminate\View\Component;
+
 /**
  * @psalm-suppress UnusedClass
  */

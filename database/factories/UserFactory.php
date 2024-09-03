@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use Laravel\Jetstream\Features;
 
-
 class UserFactory extends Factory
 {
     /**
@@ -53,6 +52,8 @@ class UserFactory extends Factory
             ];
         });
     }
+
+    /*
      * Indicate that the user should have a personal team.
      */
     public function withPersonalTeam(?callable $callback = null): static
@@ -72,5 +73,5 @@ class UserFactory extends Factory
             'ownedTeams'
         );
 
-     }
+    }
 }

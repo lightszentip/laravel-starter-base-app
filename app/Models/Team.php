@@ -48,6 +48,7 @@ class Team extends JetstreamTeam
             'personal_team' => 'boolean',
         ];
     }
+
     /** * @SuppressWarnings(PHPMD.StaticAccess) */
     protected static function newFactory(): \Illuminate\Database\Eloquent\Factories\Factory|TeamFactory
     {
