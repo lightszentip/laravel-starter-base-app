@@ -49,5 +49,11 @@ composer require "graham-campbell/security:^11.2"
 php artisan vendor:publish --provider="GrahamCampbell\Security\SecurityServiceProvider"
 ```
 
+## Pennant
+
+```shell
+composer require laravel/pennant
+php artisan vendor:publish --provider="Laravel\Pennant\PennantServiceProvider"
+```
 
 
