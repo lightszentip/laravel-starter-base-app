@@ -64,7 +64,7 @@
                     \Laravel\Jetstream\Events\InvitingTeamMember,
                     \Laravel\Jetstream\Events\TeamMemberRemoved,
                     \Laravel\Jetstream\Events\TeamMemberAdded,
-                    \Laravel\Jetstream\Events\AddingTeamMember
+                    \Laravel\Jetstream\Events\AddingTeamMember,
                     \Livewire\Volt\Volt,
                     \App\Models\User,
                     \App\Models\Team
