@@ -12,6 +12,7 @@ use Laravel\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
 
 /**
+ * @property mixed $id
  * @psalm-suppress all
  */
 class User extends Authenticatable
