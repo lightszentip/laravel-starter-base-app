@@ -10,14 +10,15 @@
 >
     <projectFiles>
         <directory name="app"/>
-        <directory name="database/factories"/>
         <directory name="database/seeders"/>
         <ignoreFiles>
             <directory name="vendor"/>
+            <file name="app\Providers\AppServiceProvider.php"/>
         </ignoreFiles>
     </projectFiles>
     <plugins>
         <pluginClass class="Psalm\LaravelPlugin\Plugin"/>
         <pluginClass class="Psalm\PhpUnitPlugin\Plugin"/>
-    <pluginClass class="Psalm\MockeryPlugin\Plugin"/></plugins>
+        <pluginClass class="Psalm\MockeryPlugin\Plugin"/>
+    </plugins>
 </psalm>
