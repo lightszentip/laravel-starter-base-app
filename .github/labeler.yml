@@ -1,0 +1,13 @@
+# Add 'Documentation' label to any change to .md files within the entire repository 
+documentation:
+- changed-files:
+  - any-glob-to-any-file: '**/*.md'
+
+enhancement:
+ - head-branch: ['^feature', 'feature']
+
+githubaction:
+- changed-files:
+  - any-glob-to-any-file: '.github/workflows/*.yml'
+
+ 

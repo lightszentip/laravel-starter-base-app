@@ -1,12 +1,17 @@
 {
-    "name": "laravel/laravel",
+    "name": "lightszentip/laravel-starter-base-app",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": [
-        "laravel",
-        "framework"
-    ],
+    "description": "A powerful starter kit for Laravel applications featuring Filament and Jetstream, designed for rapid development with the latest quality standards. Perfect for building scalable and maintainable Laravel apps with a modern tech stack including Livewire, PHPStan, and Pest.",
+    "keywords": ["laravel", "starter-kit-laravel","starter kit","template"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Lightszentip",
+            "email": "Lightszentip@gmail.com",
+            "homepage": "https://gnetos.de",
+            "role": "Maintainer"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "graham-campbell/security": "11.2",
@@ -48,7 +53,17 @@
             "Tests\\": "tests/"
         }
     },
+
+
     "scripts": {
+        "larastan": "vendor/bin/phpstan analyse --memory-limit=2G app tests",
+        "pint": "vendor/bin/pint",
+        "test:pest": "vendor/bin/pest --parallel",
+        "test:phpstan": "vendor/bin/phpstan analyse",
+        "test": [
+            "@test:pest",
+            "@test:phpstan"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
@@ -63,6 +78,10 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
+        ],
+        "lint": [
+            "vendor/bin/phpcs --standard=PSR12 app/",
+            "vendor/bin/phpstan analyse"
         ]
     },
     "extra": {

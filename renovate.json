@@ -12,6 +12,7 @@
     ":automergePatch"
   ],
   "separateMajorMinor": true,
+    "labels": ["dependencies"],
   "separateMultipleMajor": true,
   "separateMultipleMinor": true,
   "lockFileMaintenance": {
