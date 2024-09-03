@@ -12,7 +12,7 @@ parameters:
     level: 5 # 0 because 1 have a problem with laravel create in models
     excludePaths:
         - tests/*/*Test.php
-        - App/Actions/Jetstream/*.php
+        - app/Actions/Jetstream/*.php
         - tests/Pest.php
 #        analyse:
 #            - tests/Pest.php
