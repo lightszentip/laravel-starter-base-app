@@ -17,7 +17,7 @@
         "graham-campbell/security": "11.2",
         "laravel/framework": "^11.21",
         "laravel/pennant": "^1.11",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
         "laravel/jetstream": "^5.1",
         "laravel/sanctum": "^4.0",
         "livewire/livewire": "^3.5",
