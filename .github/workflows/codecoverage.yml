@@ -1,4 +1,4 @@
-name: Pint
+name: Code Coverage
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  pint:
+  code-coverage:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       fail-fast: false
