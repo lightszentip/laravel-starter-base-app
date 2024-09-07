@@ -16,6 +16,7 @@ use Laravel\Sanctum\HasApiTokens;
  * @property mixed $name
  *
  * @psalm-suppress all
+ *
  * @method static where(string $string, mixed $identity)
  * @method static create(array $array)
  */

@@ -1,7 +1,6 @@
 <?php
 
 use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 use Laravel\Jetstream\Features;
 
 test('confirm password screen can be rendered', function () {
@@ -13,7 +12,6 @@ test('confirm password screen can be rendered', function () {
 
     $response->assertStatus(200);
 });
-
 
 test('password can be confirmed', function () {
     $user = User::factory()->create();
