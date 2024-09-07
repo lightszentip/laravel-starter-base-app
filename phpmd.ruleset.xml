@@ -65,6 +65,7 @@
                     \Laravel\Jetstream\Events\TeamMemberRemoved,
                     \Laravel\Jetstream\Events\TeamMemberAdded,
                     \Laravel\Jetstream\Events\AddingTeamMember,
+                    \Illuminate\Validation\Rules\Password,
                     \Livewire\Volt\Volt,
                     \App\Models\User,
                     \App\Models\Team
