@@ -81,5 +81,8 @@ php artisan filament:optimize-clear
 composer require bezhansalleh/filament-shield
 php artisan vendor:publish --tag=filament-shield-config
 php artisan shield:install #(yes & yes)
+php artisan shield:generate --option=policies
+php artisan shield:publish
+php artisan shield:generate
 ```
 
