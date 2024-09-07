@@ -38,6 +38,8 @@ php artisan db:seed
 - **Pre-configured Code Quality Tools**: Includes Pint, Larastan, PHPMD, PSALM, and PHPCodeSniffer.
 - **Environment Configuration**: Easy setup for environment variables.
 - **Essential Packages**: Pre-installed packages for security, static analysis, and more.
+- [x] Jetstream
+- [x] MaryUI
 
 ## Code Quality Tools
 
