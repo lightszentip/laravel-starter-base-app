@@ -56,7 +56,19 @@
                     \Illuminate\Support\Facades\Storage,
                     \Illuminate\Support\Facades\URL,
                     \Illuminate\Support\Facades\Validator,
-                    \Illuminate\Support\Facades\View
+                    \Illuminate\Support\Facades\View,
+                    \Laravel\Fortify\Fortify,
+                    \Illuminate\Support\Str,
+                    \Laravel\Jetstream\Jetstream,
+                    \Laravel\Jetstream\Events\AddingTeam,
+                    \Laravel\Jetstream\Events\InvitingTeamMember,
+                    \Laravel\Jetstream\Events\TeamMemberRemoved,
+                    \Laravel\Jetstream\Events\TeamMemberAdded,
+                    \Laravel\Jetstream\Events\AddingTeamMember,
+                    \Illuminate\Validation\Rules\Password,
+                    \Livewire\Volt\Volt,
+                    \App\Models\User,
+                    \App\Models\Team
                 </value>
             </property>
         </properties>

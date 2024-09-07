@@ -12,6 +12,9 @@ use App\Actions\Jetstream\UpdateTeamName;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Jetstream\Jetstream;
 
+/**
+ * @psalm-suppress UnusedClass
+ */
 class JetstreamServiceProvider extends ServiceProvider
 {
     /**

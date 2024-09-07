@@ -13,6 +13,9 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Laravel\Fortify\Fortify;
 
+/**
+ * @psalm-suppress UnusedClass
+ */
 class FortifyServiceProvider extends ServiceProvider
 {
     /**

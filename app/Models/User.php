@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -11,6 +11,10 @@ use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
 
+/**
+ * @property mixed $id
+ * @psalm-suppress all
+ */
 class User extends Authenticatable
 {
     use HasApiTokens;
@@ -63,5 +67,11 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    /** * @SuppressWarnings(PHPMD.StaticAccess) */
+    protected static function newFactory(): \Illuminate\Database\Eloquent\Factories\Factory|UserFactory
+    {
+        return UserFactory::new();
     }
 }

@@ -6,12 +6,12 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "axios": "1.7.7",
+        "laravel-vite-plugin": "1.0.5",
         "@tailwindcss/forms": "^0.5.8",
         "@tailwindcss/typography": "^0.5.15",
         "autoprefixer": "^10.4.20",
-        "axios": "1.7.7",
         "daisyui": "^4.12.10",
-        "laravel-vite-plugin": "1.0.5",
         "postcss": "^8.4.44",
         "tailwindcss": "^3.4.10",
         "vite": "5.4.3"

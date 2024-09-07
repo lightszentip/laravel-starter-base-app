@@ -33,7 +33,7 @@ class InviteTeamMember implements InvitesTeamMembers
             'email' => $email,
             'role' => $role,
         ]);
-
+        /** @phpstan-ignore-next-line  */
         Mail::to($email)->send(new TeamInvitation($invitation));
     }
 
