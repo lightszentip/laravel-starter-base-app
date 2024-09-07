@@ -9,28 +9,28 @@ importers:
   .:
     devDependencies:
       '@tailwindcss/forms':
-        specifier: ^0.5.8
+        specifier: 0.5.8
         version: 0.5.8(tailwindcss@3.4.10)
       '@tailwindcss/typography':
-        specifier: ^0.5.15
+        specifier: 0.5.15
         version: 0.5.15(tailwindcss@3.4.10)
       autoprefixer:
-        specifier: ^10.4.20
+        specifier: 10.4.20
         version: 10.4.20(postcss@8.4.44)
       axios:
         specifier: 1.7.7
         version: 1.7.7
       daisyui:
-        specifier: ^4.12.10
+        specifier: 4.12.10
         version: 4.12.10(postcss@8.4.44)
       laravel-vite-plugin:
         specifier: 1.0.5
         version: 1.0.5(vite@5.4.3)
       postcss:
-        specifier: ^8.4.44
+        specifier: 8.4.44
         version: 8.4.44
       tailwindcss:
-        specifier: ^3.4.10
+        specifier: 3.4.10
         version: 3.4.10
       vite:
         specifier: 5.4.3
@@ -463,6 +463,7 @@ packages:
   follow-redirects@1.15.8:
     resolution: {integrity: sha512-xgrmBhBToVKay1q2Tao5LI26B83UhrB/vM1avwVSDzt8rx3rO6AizBAaF46EgksTVr+rFTQaqZZ9MVBfUe4nig==}
     engines: {node: '>=4.0'}
+    deprecated: Browser detection issues fixed in v1.15.9
     peerDependencies:
       debug: '*'
     peerDependenciesMeta:
