@@ -48,12 +48,26 @@ composer require --dev "psalm/plugin-mockery"
 composer require "graham-campbell/security:^11.2"
 php artisan vendor:publish --provider="GrahamCampbell\Security\SecurityServiceProvider"
 ```
-
 ## Pennant
 
 ```shell
 composer require laravel/pennant
 php artisan vendor:publish --provider="Laravel\Pennant\PennantServiceProvider"
 ```
+
+## Jetstream
+
+```shell
+composer require laravel/jetstream
+php artisan jetstream:install livewire --teams --dark
+npm install && npm run dev
+```
+
+## MaryUI
+
+```shell
+composer require robsontenorio/mary
+php artisan mary:install
+
 
 

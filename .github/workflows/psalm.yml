@@ -9,6 +9,10 @@ on:
 jobs:
   psalm:
     runs-on: ${{ matrix.operating-system }}
+    permissions:
+        contents: write
+        packages: write
+        actions: write
     strategy:
       fail-fast: false
       matrix:
@@ -20,9 +24,10 @@ jobs:
       - uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
         with:
           php-version: ${{ matrix.php-versions }}
-          extensions: mbstring, intl
+          extensions: mbstring, intl, , :php-psr
           ini-values: post_max_size=256M, max_execution_time=180
           coverage: xdebug
+
       - name: Composer install
         run: composer install --optimize-autoloader --prefer-dist
       - run: php ./vendor/bin/psalm --threads=2 --output-format=github --report=results.sarif
