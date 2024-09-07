@@ -30,4 +30,4 @@ jobs:
 
       - name: Composer install
         run: composer install --optimize-autoloader --prefer-dist
-      - run: php ./vendor/bin/psalm --threads=2 --output-format=github
+      - run: php ./vendor/bin/psalm --threads=2 --output-format=github --report=results.sarif
