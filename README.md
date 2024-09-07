@@ -1,6 +1,7 @@
 # Laravel Starter Base App Kit
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lightszentip/laravel-starter-base-app.svg?style=flat-square)](https://packagist.org/packages/lightszentip/laravel-starter-base-app)
+[![Latest Version on Packagist](https://img.shields.io/badge/packagist-jetstream-blue)](https://packagist.org/packages/lightszentip/laravel-starter-base-app#dev-jetstream)
 [![Total Downloads](https://img.shields.io/packagist/dt/lightszentip/laravel-starter-base-app.svg?style=flat-square)](https://packagist.org/packages/lightszentip/laravel-starter-base-app)
 
 ## Introduction

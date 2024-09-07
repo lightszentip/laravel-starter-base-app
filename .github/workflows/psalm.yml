@@ -27,7 +27,7 @@ jobs:
           extensions: mbstring, intl, , :php-psr
           ini-values: post_max_size=256M, max_execution_time=180
           coverage: xdebug
-
+          
       - name: Composer install
         run: composer install --optimize-autoloader --prefer-dist
       - run: php ./vendor/bin/psalm --threads=2 --output-format=github --report=results.sarif
