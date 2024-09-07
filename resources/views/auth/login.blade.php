@@ -15,9 +15,9 @@
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
-            <div>
-                <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+            <div class="mt-4">
+                <x-label for="identity" value="{{ __('Username/Email') }}" />
+                <x-input id="identity" class="block mt-1 w-full" type="identity" name="identity" :value="old('identity')" required autofocus />
             </div>
 
             <div class="mt-4">

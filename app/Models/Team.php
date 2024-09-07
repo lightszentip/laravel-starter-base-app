@@ -11,6 +11,8 @@ use Laravel\Jetstream\Team as JetstreamTeam;
 
 /**
  * @psalm-suppress all
+ *
+ * @method static forceCreate(array $array)
  */
 class Team extends JetstreamTeam
 {

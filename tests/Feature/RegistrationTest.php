@@ -23,11 +23,11 @@ test('new users can register', function () {
     $response = $this->post('/register', [
         'name' => 'Test User',
         'email' => 'test@example.com',
+        'username' => 'test',
         'password' => 'password',
         'password_confirmation' => 'password',
         'terms' => Jetstream::hasTermsAndPrivacyPolicyFeature(),
     ]);
-
     $this->assertAuthenticated();
     $response->assertRedirect(route('dashboard', absolute: false));
 })->skip(function () {
