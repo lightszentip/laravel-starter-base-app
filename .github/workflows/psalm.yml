@@ -2,9 +2,10 @@ name: Psalm
 
 on:
   push:
+    branches: [ "main","jetstream","filamentphp" ]
   workflow_dispatch:
   pull_request:
-    branches: [main]
+    branches: [ "main","jetstream","filamentphp" ]
 
 jobs:
   psalm:
@@ -24,10 +25,10 @@ jobs:
       - uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
         with:
           php-version: ${{ matrix.php-versions }}
-          extensions: mbstring, intl, , :php-psr
+          extensions: mbstring,  intl,ext-intl,ext-zip, :php-psr
           ini-values: post_max_size=256M, max_execution_time=180
           coverage: xdebug
-          
+
       - name: Composer install
         run: composer install --optimize-autoloader --prefer-dist
       - run: php ./vendor/bin/psalm --threads=2 --output-format=github --report=results.sarif
