@@ -51,7 +51,7 @@
 
 
     "scripts": {
-        "psalm": "vendor/bin/psalm --config=psalm.xml"
+        "psalm": "vendor/bin/psalm --config=psalm.xml",
         "larastan": "vendor/bin/phpstan analyse --memory-limit=2G app tests",
         "pint": "vendor/bin/pint",
         "test:pest": "vendor/bin/pest --parallel",
