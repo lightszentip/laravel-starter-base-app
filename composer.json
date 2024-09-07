@@ -2,7 +2,12 @@
     "name": "lightszentip/laravel-starter-base-app",
     "type": "project",
     "description": "A powerful starter kit for Laravel applications featuring Filament and Jetstream, designed for rapid development with the latest quality standards. Perfect for building scalable and maintainable Laravel apps with a modern tech stack including Livewire, PHPStan, and Pest.",
-    "keywords": ["laravel", "starter-kit-laravel","starter kit","template"],
+    "keywords": [
+        "laravel",
+        "starter-kit-laravel",
+        "starter kit",
+        "template"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -14,12 +19,13 @@
     ],
     "require": {
         "php": "^8.2",
+        "filament/filament": "^3.2",
         "graham-campbell/security": "11.2",
         "laravel/framework": "^11.21",
-        "laravel/pennant": "^1.11",
-        "laravel/tinker": "^2.9",
         "laravel/jetstream": "^5.1",
+        "laravel/pennant": "^1.11",
         "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
         "livewire/volt": "^1.6",
         "robsontenorio/mary": "^1.35"
@@ -54,8 +60,6 @@
             "Tests\\": "tests/"
         }
     },
-
-
     "scripts": {
         "psalm": "vendor/bin/psalm --config=psalm.xml",
         "larastan": "vendor/bin/phpstan analyse --memory-limit=2G app tests",
@@ -68,7 +72,8 @@
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"

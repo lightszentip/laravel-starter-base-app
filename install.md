@@ -68,6 +68,15 @@ npm install && npm run dev
 ```shell
 composer require robsontenorio/mary
 php artisan mary:install
+```
 
+## Filament
 
+```shell
+composer require filament/filament -W
+php artisan filament:install --panels
+php artisan make:filament-user
+php artisan filament:optimize
+php artisan filament:optimize-clear
+```
 
