@@ -13,7 +13,9 @@ use Laravel\Sanctum\HasApiTokens;
 
 /**
  * @property mixed $id
+ *
  * @psalm-suppress all
+ * @method static where(string $string, mixed $identity)
  */
 class User extends Authenticatable
 {
