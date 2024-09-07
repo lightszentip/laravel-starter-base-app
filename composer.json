@@ -19,6 +19,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "bezhansalleh/filament-shield": "^3.2",
         "filament/filament": "^3.2",
         "graham-campbell/security": "11.2",
         "laravel/framework": "^11.21",

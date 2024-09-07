@@ -78,5 +78,8 @@ php artisan filament:install --panels
 php artisan make:filament-user
 php artisan filament:optimize
 php artisan filament:optimize-clear
+composer require bezhansalleh/filament-shield
+php artisan vendor:publish --tag=filament-shield-config
+php artisan shield:install #(yes & yes)
 ```
 
