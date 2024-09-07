@@ -3,7 +3,7 @@
   "baseBranches": [
     "main",
     "jetstream",
-    "filament"
+    "filamentphp"
   ],
   "extends": [
     "config:best-practices",
