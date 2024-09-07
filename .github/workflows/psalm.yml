@@ -23,5 +23,6 @@ jobs:
           extensions: mbstring, intl
           ini-values: post_max_size=256M, max_execution_time=180
           coverage: xdebug
-      - uses: php-actions/composer@8a65f0d3c6a1d17ca4800491a40b5756a4c164f3 # v6 # or alternative dependency management
-      - run: ./vendor/bin/psalm
+      - name: Composer install
+        run: composer install --optimize-autoloader --prefer-dist
+      - run: php ./vendor/bin/psalm --threads=2 --output-format=github --report=results.sarif
