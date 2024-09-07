@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Laravel\Jetstream\Features;
 
 test('confirm password screen can be rendered', function () {

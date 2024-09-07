@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Laravel\Fortify\Fortify;
-use Laravel\Fortify\Http\Requests\LoginRequest;
 
 /**
  * @psalm-suppress UnusedClass
@@ -49,7 +48,7 @@ class FortifyServiceProvider extends ServiceProvider
             return Limit::perMinute(5)->by($request->session()->get('login.id'));
         });
 
-        Fortify::authenticateUsing(callback: function (LoginRequest $request) {
+        Fortify::authenticateUsing(function (Request $request) {
             $user = User::where('email', $request->identity)
                 ->orWhere('username', $request->identity)->first();
             if ($user && Hash::check($request->password, $user->password)
