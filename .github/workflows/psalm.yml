@@ -9,6 +9,10 @@ on:
 jobs:
   psalm:
     runs-on: ${{ matrix.operating-system }}
+    permissions:
+        contents: write
+        packages: write
+        actions: write
     strategy:
       fail-fast: false
       matrix:
