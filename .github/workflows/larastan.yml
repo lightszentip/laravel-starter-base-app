@@ -21,7 +21,7 @@ jobs:
       - uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
         with:
           php-version: ${{ matrix.php-versions }}
-          extensions: mbstring, intl,ext-intl,ext-zip
+          extensions: mbstring,intl,zip
           ini-values: post_max_size=256M, max_execution_time=180
           coverage: xdebug
       - uses: php-actions/composer@8a65f0d3c6a1d17ca4800491a40b5756a4c164f3 # v6 # or alternative dependency management
