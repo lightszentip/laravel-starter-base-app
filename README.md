@@ -17,11 +17,18 @@ Laravel Starter Base App Kit is a boilerplate for starting new Laravel projects 
 ## Installation
 
 To create a new project using this starter kit, run the following command:
-
+### default
 ```shell
 composer create-project lightszentip/laravel-starter-base-app
 ```
-
+### jetstream
+```shell
+composer create-project lightszentip/laravel-starter-base-app:dev-jetstream
+```
+### filamentphp
+```shell
+composer create-project lightszentip/laravel-starter-base-app:dev-filamentphp
+```
 
 ## Setup
 
