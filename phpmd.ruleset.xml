@@ -68,7 +68,20 @@
                     \Illuminate\Validation\Rules\Password,
                     \Livewire\Volt\Volt,
                     \App\Models\User,
-                    \App\Models\Team
+                    \App\Models\Team,
+                    \BezhanSalleh\FilamentShield\Support\Utils,
+                    \BezhanSalleh\FilamentShield\Facades\FilamentShield,
+                    \BezhanSalleh\FilamentShield\FilamentShieldPlugin,
+                    \Filament\Actions\EditAction,
+                    \Filament\Actions\CreateAction,
+                    \Filament\Actions\DeleteAction,
+                    \Filament\Actions\CreateAction,
+                    \Filament\Tables\Actions\ViewAction,
+                    \Filament\Tables\Actions\EditAction,
+                    \Filament\Tables\Actions\DeleteAction,
+                    \Filament\Tables\Actions\BulkActionGroup,
+                    \Filament\Tables\Actions\DeleteBulkAction,
+                    \Illuminate\Support\Arr
                 </value>
             </property>
         </properties>
