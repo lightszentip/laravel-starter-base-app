@@ -22,6 +22,11 @@ class EditRole extends EditRecord
         ];
     }
 
+    /**
+     * @param array $data
+     * @return array|mixed[]
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     */
     protected function mutateFormDataBeforeSave(array $data): array
     {
         $this->permissions = collect($data)
@@ -44,7 +49,7 @@ class EditRole extends EditRecord
                 'guard_name' => $this->data['guard_name'],
             ]));
         });
-
+        //@phpstan-ignore-next-line
         $this->record->syncPermissions($permissionModels);
     }
 }

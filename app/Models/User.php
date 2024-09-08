@@ -28,9 +28,9 @@ class User extends Authenticatable implements FilamentUser
 {
     use HasApiTokens;
     use HasFactory;
-    use HasRoles;
     use HasPanelShield;
     use HasProfilePhoto;
+    use HasRoles;
     use HasTeams;
     use Notifiable;
     use TwoFactorAuthenticatable;
@@ -90,6 +90,9 @@ class User extends Authenticatable implements FilamentUser
     public function canAccessPanel(Panel $panel): bool
     {
         // TODO: Implement canAccessPanel() method.
+        if ($panel->getId() === 'admin' || $this->hasRole('super_admin')) {
+            return str_ends_with($this->username, 'admin');
+        }
         return str_ends_with($this->email, '@yourdomain.com') && $this->hasVerifiedEmail();
     }
 }
