@@ -2,7 +2,13 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lightszentip/laravel-starter-base-app.svg?style=flat-square)](https://packagist.org/packages/lightszentip/laravel-starter-base-app)
 [![Latest Version on Packagist](https://img.shields.io/badge/packagist-jetstream-blue)](https://packagist.org/packages/lightszentip/laravel-starter-base-app#dev-jetstream)
+[![Latest Version on Packagist](https://img.shields.io/badge/packagist-filamentphp-blue)](https://packagist.org/packages/lightszentip/laravel-starter-base-app#dev-filamentphp)
 [![Total Downloads](https://img.shields.io/packagist/dt/lightszentip/laravel-starter-base-app.svg?style=flat-square)](https://packagist.org/packages/lightszentip/laravel-starter-base-app)
+[![Larastan](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/larastan.yml/badge.svg)](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/larastan.yml)
+[![Laravel](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/laravel.yml/badge.svg)](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/laravel.yml)
+[![PHPCodeSniffer](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/phpcodesniffer.yml/badge.svg)](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/phpcodesniffer.yml)
+[![PHPmd](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/phpmd.yml/badge.svg)](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/phpmd.yml)
+[![Psalm](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/psalm.yml/badge.svg)](https://github.com/lightszentip/laravel-starter-base-app/actions/workflows/psalm.yml)
 
 ## Introduction
 
