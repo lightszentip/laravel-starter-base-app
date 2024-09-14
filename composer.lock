@@ -1959,16 +1959,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v5.1.5",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "653a422fe65278c1c4f319e99d5cb700c4117ea0"
+                "reference": "8093245d850c215e47df1c5fc081f545afd7f0c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/653a422fe65278c1c4f319e99d5cb700c4117ea0",
-                "reference": "653a422fe65278c1c4f319e99d5cb700c4117ea0",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/8093245d850c215e47df1c5fc081f545afd7f0c5",
+                "reference": "8093245d850c215e47df1c5fc081f545afd7f0c5",
                 "shasum": ""
             },
             "require": {
@@ -2022,7 +2022,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2024-08-08T13:28:23+00:00"
+            "time": "2024-09-09T13:52:03+00:00"
         },
         {
             "name": "laravel/pennant",
