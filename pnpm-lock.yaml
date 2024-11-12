@@ -24,8 +24,8 @@ importers:
         specifier: 4.12.14
         version: 4.12.14(postcss@8.4.49)
       laravel-vite-plugin:
-        specifier: 1.0.5
-        version: 1.0.5(vite@5.4.11)
+        specifier: 1.0.6
+        version: 1.0.6(vite@5.4.11)
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -548,8 +548,8 @@ packages:
     resolution: {integrity: sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==}
     hasBin: true
 
-  laravel-vite-plugin@1.0.5:
-    resolution: {integrity: sha512-Zv+to82YLBknDCZ6g3iwOv9wZ7f6EWStb9pjSm7MGe9Mfoy5ynT2ssZbGsMr1udU6rDg9HOoYEVGw5Qf+p9zbw==}
+  laravel-vite-plugin@1.0.6:
+    resolution: {integrity: sha512-B34OqmZc/rV1KvSjst8SsUm/LKHsuDusw8jiZCIhlnTHXbXnK89JUM9pTJuk6E/Vc/1DT2gX7qNfhipak1WS8w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1279,7 +1279,7 @@ snapshots:
 
   jiti@1.21.6: {}
 
-  laravel-vite-plugin@1.0.5(vite@5.4.11):
+  laravel-vite-plugin@1.0.6(vite@5.4.11):
     dependencies:
       picocolors: 1.1.1
       vite: 5.4.11
