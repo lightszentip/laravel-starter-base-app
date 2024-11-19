@@ -2874,16 +2874,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "e5b9ef610bf13fb3b6053893f711227213833f35"
+                "reference": "16859ea11a0bbce631c19d95ca0e172322e52e30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/e5b9ef610bf13fb3b6053893f711227213833f35",
-                "reference": "e5b9ef610bf13fb3b6053893f711227213833f35",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/16859ea11a0bbce631c19d95ca0e172322e52e30",
+                "reference": "16859ea11a0bbce631c19d95ca0e172322e52e30",
                 "shasum": ""
             },
             "require": {
@@ -2937,7 +2937,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2024-11-11T20:18:18+00:00"
+            "time": "2024-11-13T13:59:38+00:00"
         },
         {
             "name": "laravel/pennant",
@@ -3077,16 +3077,16 @@
         },
         {
             "name": "laravel/sanctum",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "54aea9d13743ae8a6cdd3c28dbef128a17adecab"
+                "reference": "819782c75aaf2b08da1765503893bd2b8023d3b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/54aea9d13743ae8a6cdd3c28dbef128a17adecab",
-                "reference": "54aea9d13743ae8a6cdd3c28dbef128a17adecab",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/819782c75aaf2b08da1765503893bd2b8023d3b3",
+                "reference": "819782c75aaf2b08da1765503893bd2b8023d3b3",
                 "shasum": ""
             },
             "require": {
@@ -3137,7 +3137,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2024-09-27T14:55:41+00:00"
+            "time": "2024-11-15T14:47:23+00:00"
         },
         {
             "name": "laravel/serializable-closure",
