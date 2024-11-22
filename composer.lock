@@ -9654,16 +9654,16 @@
         },
         {
             "name": "phpat/phpat",
-            "version": "0.10.18",
+            "version": "0.10.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carlosas/phpat.git",
-                "reference": "4c29e330fb306876bca3174aa4b097d0d8611964"
+                "reference": "3af2ffba058bc390a62e06b02c85598510d0da4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carlosas/phpat/zipball/4c29e330fb306876bca3174aa4b097d0d8611964",
-                "reference": "4c29e330fb306876bca3174aa4b097d0d8611964",
+                "url": "https://api.github.com/repos/carlosas/phpat/zipball/3af2ffba058bc390a62e06b02c85598510d0da4a",
+                "reference": "3af2ffba058bc390a62e06b02c85598510d0da4a",
                 "shasum": ""
             },
             "require": {
@@ -9705,9 +9705,9 @@
             "description": "PHP Architecture Tester",
             "support": {
                 "issues": "https://github.com/carlosas/phpat/issues",
-                "source": "https://github.com/carlosas/phpat/tree/0.10.18"
+                "source": "https://github.com/carlosas/phpat/tree/0.10.19"
             },
-            "time": "2024-07-05T14:56:19+00:00"
+            "time": "2024-11-22T07:31:27+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
