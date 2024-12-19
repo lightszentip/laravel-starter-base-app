@@ -13,10 +13,10 @@ importers:
         version: 1.7.9
       laravel-vite-plugin:
         specifier: 1.1.1
-        version: 1.1.1(vite@6.0.3)
+        version: 1.1.1(vite@6.0.4)
       vite:
-        specifier: 6.0.3
-        version: 6.0.3
+        specifier: 6.0.4
+        version: 6.0.4
 
 packages:
 
@@ -345,8 +345,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@6.0.3:
-    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
+  vite@6.0.4:
+    resolution: {integrity: sha512-zwlH6ar+6o6b4Wp+ydhtIKLrGM/LoqZzcdVmkGAFun0KHTzIzjh+h0kungEx7KJg/PYnC80I4TII9WkjciSR6Q==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -572,10 +572,10 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  laravel-vite-plugin@1.1.1(vite@6.0.3):
+  laravel-vite-plugin@1.1.1(vite@6.0.4):
     dependencies:
       picocolors: 1.1.1
-      vite: 6.0.3
+      vite: 6.0.4
       vite-plugin-full-reload: 1.2.0
 
   mime-db@1.52.0: {}
@@ -630,7 +630,7 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.1
 
-  vite@6.0.3:
+  vite@6.0.4:
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
