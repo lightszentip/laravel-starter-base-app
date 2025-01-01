@@ -46,11 +46,6 @@ class UsersRelationManager extends RelationManager
             ->bulkActions([]);
     }
 
-    #[On('record-updated')]
-    public function recordFormUpdated(): void
-    {
-        $this->refreshFormData(['terminated_at', 'approved_at']);
-    }
 
 }
 
