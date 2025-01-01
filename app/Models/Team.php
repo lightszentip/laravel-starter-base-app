@@ -56,4 +56,9 @@ class Team extends JetstreamTeam
     {
         return TeamFactory::new();
     }
+
+    public function users()
+    {
+        return $this->belongsToMany(User::class);
+    }
 }

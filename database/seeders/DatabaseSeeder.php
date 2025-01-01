@@ -16,11 +16,24 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->withPersonalTeam()->create();
+        if (User::whereUsername('test')->first()?->count() === 0) {
+            User::factory()->withPersonalTeam()->create([
+                'name' => 'Test User',
+                'email' => 'test@example.com',
+                'username' => 'test',
+                'password' => bcrypt('password'),
+            ]);
+        }
+        if (User::whereUsername('admin')->first()?->count() === 0) {
+            User::factory()->withPersonalTeam()->create([
+                'name' => 'Admin User',
+                'email' => 'admin@example.com',
+                'username' => 'admin',
+                'password' => bcrypt('password'),
+            ]);
+        }
 
-        User::factory()->withPersonalTeam()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'username' => 'test',
-        ]);
+
+
     }
 }

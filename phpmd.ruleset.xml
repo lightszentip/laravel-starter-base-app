@@ -82,7 +82,9 @@
                     \Filament\Tables\Actions\BulkActionGroup,
                     \Filament\Tables\Actions\DeleteBulkAction,
                     \Filament\Forms\Components\DateTimePicker,
-
+                    \App\Filament\Resources\TeamResource\Pages\EditTeam,
+                    \App\Filament\Resources\TeamResource\Pages\CreateTeam,
+                    \App\Filament\Resources\TeamResource\Pages\ListTeams,
                     \Illuminate\Support\Arr
                 </value>
             </property>
