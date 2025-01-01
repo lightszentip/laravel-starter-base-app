@@ -17,7 +17,7 @@ jobs:
         php-versions: ["8.2","8.3"]
 
     steps:
-    - uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
+    - uses: shivammathur/setup-php@9e72090525849c5e82e596468b86eb55e9cc5401 # v2
       with:
         php-version: ${{ matrix.php-versions }}
         extensions: mbstring,  intl,ext-intl,ext-zip
