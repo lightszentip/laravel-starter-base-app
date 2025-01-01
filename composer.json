@@ -43,7 +43,7 @@
         "nunomaduro/collision": "^8.4",
         "pestphp/pest": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0",
-        "phpat/phpat": "^0.10.18",
+        "phpat/phpat": "^0.11.0",
         "phpmd/phpmd": "@stable",
         "psalm/plugin-laravel": "^v2.11.0",
         "psalm/plugin-mockery": "^1.1",
