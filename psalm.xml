@@ -12,7 +12,7 @@
         <directory name="app"/>
         <directory name="database/seeders"/>
         <ignoreFiles>
-            <directory name="app/Action/Fortify"/>
+            <directory name="app/Actions/Fortify"/>
             <directory name="vendor"/>
             <file name="app/Providers/AppServiceProvider.php"/>
             <file name="app/Providers/FortifyServiceProvider.php"/>
