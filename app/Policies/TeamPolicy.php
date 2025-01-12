@@ -6,9 +6,6 @@ use App\Models\Team;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-/**
- * @SuppressWarnings(PHPMD.UnusedFormalParameter)
- */
 class TeamPolicy
 {
     use HandlesAuthorization;

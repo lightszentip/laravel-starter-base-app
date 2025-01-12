@@ -7,6 +7,7 @@ use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Forms\Get;
+use Filament\Resources\Pages\PageRegistration;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -95,8 +96,7 @@ class UserResource extends Resource
     }
 
     /**
-     * @return array|\Filament\Resources\Pages\PageRegistration[]
-     * @SuppressWarnings(PHPMD.StaticAccess)
+     * @return array|PageRegistration[]
      */
     public static function getPages(): array
     {

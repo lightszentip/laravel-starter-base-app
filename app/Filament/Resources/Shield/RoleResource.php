@@ -11,6 +11,7 @@ use BezhanSalleh\FilamentShield\Support\Utils;
 use Filament\Forms;
 use Filament\Forms\Components\Component;
 use Filament\Forms\Form;
+use Filament\Resources\Pages\PageRegistration;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -122,8 +123,7 @@ class RoleResource extends Resource implements HasShieldPermissions
     }
 
     /**
-     * @SuppressWarnings(PHPMD.StaticAccess)
-     * @return array|\Filament\Resources\Pages\PageRegistration[]
+     * @return array|PageRegistration[]
      */
     public static function getPages(): array
     {
@@ -256,7 +256,6 @@ class RoleResource extends Resource implements HasShieldPermissions
      * @param array $permissions
      * @param Model|null $record
      * @return void
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public static function setPermissionStateForRecordPermissions(Component $component, string $operation, array $permissions, ?Model $record): void
     {
@@ -392,7 +391,6 @@ class RoleResource extends Resource implements HasShieldPermissions
      * @param array $options
      * @param bool $searchable
      * @return Component
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public static function getCheckboxListFormComponent(string $name, array $options, bool $searchable = true): Component
     {
