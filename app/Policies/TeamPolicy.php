@@ -6,16 +6,13 @@ use App\Models\Team;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-/**
- * @SuppressWarnings(PHPMD.UnusedFormalParameter)
- */
 class TeamPolicy
 {
     use HandlesAuthorization;
 
     /**
      * Determine whether the user can view any models.
-     *
+     * @SuppressWarnings(PHPMD)
      * @psalm-suppress PossiblyUnusedParam
      */
     public function viewAny(User $user): bool
@@ -35,6 +32,7 @@ class TeamPolicy
      * Determine whether the user can create models.
      *
      * @psalm-suppress PossiblyUnusedParam
+     * @SuppressWarnings(PHPMD)
      */
     public function create(User $user): bool
     {

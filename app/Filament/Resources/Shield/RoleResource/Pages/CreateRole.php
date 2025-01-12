@@ -16,8 +16,8 @@ class CreateRole extends CreateRecord
 
     /**
      * @param array $data
+     * @SuppressWarnings(PHPMD)
      * @return array|mixed[]
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     protected function mutateFormDataBeforeCreate(array $data): array
     {

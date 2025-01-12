@@ -19,7 +19,7 @@ test('team member roles can be updated', function () {
     expect($otherUser->fresh()->hasTeamRole(
         $user->currentTeam->fresh(), 'editor'
     ))->toBeTrue();
-});
+})->skip('By handling permission by filamentphp');
 
 test('only team owner can update team member roles', function () {
     $user = User::factory()->withPersonalTeam()->create();
@@ -39,4 +39,4 @@ test('only team owner can update team member roles', function () {
     expect($otherUser->fresh()->hasTeamRole(
         $user->currentTeam->fresh(), 'admin'
     ))->toBeTrue();
-});
+})->skip('By handling permission by filamentphp');

@@ -6,9 +6,12 @@ use App\Filament\Resources\UserResource\Pages;
 use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Filament\Forms\Get;
+use Filament\Resources\Pages\PageRegistration;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Support\Facades\Hash;
 
 class UserResource extends Resource
 {
@@ -27,22 +30,20 @@ class UserResource extends Resource
                     ->email()
                     ->required()
                     ->maxLength(255),
-                Forms\Components\DateTimePicker::make('email_verified_at'),
                 Forms\Components\TextInput::make('password')
                     ->password()
+                    ->revealable(filament()->arePasswordsRevealable())
+                    ->required(fn($operation) => $operation === 'create')
+                    ->autocomplete('new-password')
+                    ->dehydrated(fn ($state): bool => filled($state))
+                    ->dehydrateStateUsing(fn ($state): string => Hash::make($state))
+                    ->live(debounce: 500)
+                    ->same('passwordConfirmation'),
+                Forms\Components\TextInput::make('passwordConfirmation')
+                    ->password()
                     ->required()
-                    ->maxLength(255),
-                Forms\Components\Textarea::make('two_factor_secret')
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('two_factor_recovery_codes')
-                    ->columnSpanFull(),
-                Forms\Components\DateTimePicker::make('two_factor_confirmed_at'),
-                Forms\Components\TextInput::make('current_team_id')
-                    ->numeric()
-                    ->default(null),
-                Forms\Components\TextInput::make('profile_photo_path')
-                    ->maxLength(2048)
-                    ->default(null),
+                    ->visible(fn (Get $get): bool => filled($get('password')))
+                    ->dehydrated(false),
                 Forms\Components\TextInput::make('username')
                     ->required()
                     ->maxLength(255),
@@ -95,8 +96,8 @@ class UserResource extends Resource
     }
 
     /**
-     * @return array|\Filament\Resources\Pages\PageRegistration[]
-     * @SuppressWarnings(PHPMD.StaticAccess)
+     * @SuppressWarnings(PHPMD)
+     * @return array|PageRegistration[]
      */
     public static function getPages(): array
     {

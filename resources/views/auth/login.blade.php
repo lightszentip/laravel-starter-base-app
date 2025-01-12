@@ -17,7 +17,7 @@
 
             <div class="mt-4">
                 <x-label for="identity" value="{{ __('Username/Email') }}" />
-                <x-input id="identity" class="block mt-1 w-full" type="identity" name="identity" :value="old('identity')" required autofocus />
+                <x-input id="identity" class="block mt-1 w-full" type="text" name="identity" :value="old('identity')" required autofocus />
             </div>
 
             <div class="mt-4">

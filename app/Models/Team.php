@@ -21,7 +21,7 @@ class Team extends JetstreamTeam
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'name',
@@ -55,5 +55,10 @@ class Team extends JetstreamTeam
     protected static function newFactory(): \Illuminate\Database\Eloquent\Factories\Factory|TeamFactory
     {
         return TeamFactory::new();
+    }
+
+    public function users()
+    {
+        return $this->belongsToMany(User::class);
     }
 }
