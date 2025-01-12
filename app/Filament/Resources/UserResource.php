@@ -96,6 +96,7 @@ class UserResource extends Resource
     }
 
     /**
+     * @SuppressWarnings(PHPMD)
      * @return array|PageRegistration[]
      */
     public static function getPages(): array

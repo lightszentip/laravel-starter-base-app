@@ -24,6 +24,7 @@ class EditRole extends EditRecord
 
     /**
      * @param array $data
+     * @SuppressWarnings(PHPMD)
      * @return array|mixed[]
      */
     protected function mutateFormDataBeforeSave(array $data): array

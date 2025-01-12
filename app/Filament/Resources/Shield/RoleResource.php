@@ -124,6 +124,7 @@ class RoleResource extends Resource implements HasShieldPermissions
 
     /**
      * @return array|PageRegistration[]
+     * @SuppressWarnings(PHPMD)
      */
     public static function getPages(): array
     {
@@ -255,6 +256,7 @@ class RoleResource extends Resource implements HasShieldPermissions
      * @param string $operation
      * @param array $permissions
      * @param Model|null $record
+     * @SuppressWarnings(PHPMD)
      * @return void
      */
     public static function setPermissionStateForRecordPermissions(Component $component, string $operation, array $permissions, ?Model $record): void
@@ -390,6 +392,7 @@ class RoleResource extends Resource implements HasShieldPermissions
      * @param string $name
      * @param array $options
      * @param bool $searchable
+     * @SuppressWarnings(PHPMD)
      * @return Component
      */
     public static function getCheckboxListFormComponent(string $name, array $options, bool $searchable = true): Component
