@@ -976,16 +976,16 @@
         },
         {
             "name": "graham-campbell/security-core",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Security-Core.git",
-                "reference": "d4785f90e58ad3c05df9b558fee1821be4702802"
+                "reference": "6de43083f58b777dbae7e1d40faf2e82a4df1a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Security-Core/zipball/d4785f90e58ad3c05df9b558fee1821be4702802",
-                "reference": "d4785f90e58ad3c05df9b558fee1821be4702802",
+                "url": "https://api.github.com/repos/GrahamCampbell/Security-Core/zipball/6de43083f58b777dbae7e1d40faf2e82a4df1a8d",
+                "reference": "6de43083f58b777dbae7e1d40faf2e82a4df1a8d",
                 "shasum": ""
             },
             "require": {
@@ -994,8 +994,8 @@
                 "voku/portable-utf8": "^6.0.13"
             },
             "require-dev": {
-                "graham-campbell/analyzer": "^4.1",
-                "phpunit/phpunit": "^9.6.15 || ^10.5.1"
+                "graham-campbell/analyzer": "^4.2.1",
+                "phpunit/phpunit": "^9.6.22 || ^10.5.41"
             },
             "type": "library",
             "autoload": {
@@ -1028,7 +1028,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Security-Core/issues",
-                "source": "https://github.com/GrahamCampbell/Security-Core/tree/v4.0.1"
+                "source": "https://github.com/GrahamCampbell/Security-Core/tree/v4.0.2"
             },
             "funding": [
                 {
@@ -1040,7 +1040,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-03T23:21:35+00:00"
+            "time": "2025-01-13T18:21:44+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -13583,15 +13583,15 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20,
-        "phpmd/phpmd": 0
+        "phpmd/phpmd": 0,
+        "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2"
     },
