@@ -33,6 +33,7 @@ class CreateNewUser implements CreatesNewUsers
         ])->validate();
 
         return DB::transaction(function () use ($input) {
+            /** @psalm-suppress InvalidStaticInvocation */
             return tap(User::create([
                 'name' => $input['name'],
                 'email' => $input['email'],
@@ -49,6 +50,7 @@ class CreateNewUser implements CreatesNewUsers
      */
     protected function createTeam(User $user): void
     {
+        /** @psalm-suppress InvalidStaticInvocation */
         $user->ownedTeams()->save(Team::forceCreate([
             'user_id' => $user->id,
             'name' => explode(' ', $user->name, 2)[0]."'s Team",

@@ -49,6 +49,7 @@ class FortifyServiceProvider extends ServiceProvider
         });
 
         Fortify::authenticateUsing(function (Request $request) {
+            /** @psalm-suppress InvalidStaticInvocation */
             $user = User::where('email', $request->identity)
                 ->orWhere('username', $request->identity)->first();
             if ($user && Hash::check($request->password, $user->password)
