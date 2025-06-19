@@ -13,28 +13,28 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.2||^8.3",
         "graham-campbell/security": "11.2",
-        "laravel/framework": "^11.37",
-        "laravel/pennant": "^1.14",
-        "laravel/tinker": "^v2.10.0"
+        "laravel/framework": "^v11.45",
+        "laravel/pennant": "^v1.17",
+        "laravel/tinker": "^v2.10.1"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "fakerphp/faker": "^1.23",
-        "larastan/larastan": "^v3.0.2",
-        "laravel/pint": "^v1.19.0",
-        "laravel/sail": "^v1.39.1",
+        "fakerphp/faker": "^v1.24.1",
+        "larastan/larastan": "^v3.4.2",
+        "laravel/pint": "^v1.22.1",
+        "laravel/sail": "^v1.43.1",
         "mockery/mockery": "^1.6.12",
-        "nunomaduro/collision": "^v8.5.0",
-        "pestphp/pest": "^2.36",
-        "phpat/phpat": "^0.11.2",
+        "nunomaduro/collision": "^v8.8.1",
+        "pestphp/pest": "^v3.8.2",
+        "phpat/phpat": "^0.11.5",
         "phpmd/phpmd": "@stable",
-        "psalm/plugin-laravel": "^v2.11.0",
-        "psalm/plugin-mockery": "^1.1",
-        "psalm/plugin-phpunit": "^0.19.0",
-        "squizlabs/php_codesniffer": "3.12.2",
-        "vimeo/psalm": "5.26.1"
+        "psalm/plugin-laravel": "^v3.0.3",
+        "psalm/plugin-mockery": "^1.2.1",
+        "psalm/plugin-phpunit": "^0.19.5",
+        "squizlabs/php_codesniffer": "3.13.2",
+        "vimeo/psalm": "6.10.*"
     },
     "autoload": {
         "psr-4": {
@@ -93,9 +93,6 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true,
             "phpro/grumphp-shim": true
-        },
-        "platform": {
-            "php": "8.2"
         }
     },
     "minimum-stability": "stable",
