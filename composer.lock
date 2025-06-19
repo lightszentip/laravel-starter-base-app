@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "480fc2d7590dd1cbac72010dd498bdf4",
+    "content-hash": "ef8cde530e019bae378e602a04e24b2d",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5722,27 +5722,27 @@
         },
         {
             "name": "robsontenorio/mary",
-            "version": "1.41.8",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsontenorio/mary.git",
-                "reference": "364708bbed8a954bb9072957cc7cbcd8b3301c09"
+                "reference": "a6d42c9468cc9bdee3e0f6853571fcf965177f27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsontenorio/mary/zipball/364708bbed8a954bb9072957cc7cbcd8b3301c09",
-                "reference": "364708bbed8a954bb9072957cc7cbcd8b3301c09",
+                "url": "https://api.github.com/repos/robsontenorio/mary/zipball/a6d42c9468cc9bdee3e0f6853571fcf965177f27",
+                "reference": "a6d42c9468cc9bdee3e0f6853571fcf965177f27",
                 "shasum": ""
             },
             "require": {
-                "blade-ui-kit/blade-heroicons": "^2.3",
-                "illuminate/support": "^10.0|^11.0",
+                "blade-ui-kit/blade-heroicons": "^2.0",
+                "illuminate/support": "^10.0|^11.0|^12.0",
                 "jfcherng/php-diff": "^6.15",
                 "laravel/prompts": "^0|^1"
             },
             "require-dev": {
-                "orchestra/testbench": "^8.21",
-                "phpunit/phpunit": "^10.5"
+                "orchestra/testbench": "^8|^9|^10",
+                "phpunit/phpunit": "^10|^11"
             },
             "type": "library",
             "extra": {
@@ -5771,7 +5771,7 @@
                     "homepage": "https://github.com/robsontenorio"
                 }
             ],
-            "description": "Laravel Blade UI Components for Livewire 3",
+            "description": "Gorgeous UI components for Livewire powered by daisyUI and Tailwind",
             "homepage": "https://mary-ui.com",
             "keywords": [
                 "DaisyUI",
@@ -5797,7 +5797,7 @@
             ],
             "support": {
                 "issues": "https://github.com/robsontenorio/mary/issues",
-                "source": "https://github.com/robsontenorio/mary/tree/1.41.8"
+                "source": "https://github.com/robsontenorio/mary/tree/2.4.2"
             },
             "funding": [
                 {
@@ -5805,7 +5805,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-03T22:09:17+00:00"
+            "time": "2025-06-04T15:20:48+00:00"
         },
         {
             "name": "ryangjchandler/blade-capture-directive",
@@ -16202,8 +16202,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20,
-        "phpmd/phpmd": 0
+        "phpmd/phpmd": 0,
+        "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -16212,6 +16212,6 @@
         "ext-intl": "*",
         "ext-zip": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
