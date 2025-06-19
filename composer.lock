@@ -10878,24 +10878,24 @@
         },
         {
             "name": "psalm/plugin-mockery",
-            "version": "1.1.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-mockery.git",
-                "reference": "876247d15f91df08240d00dac69c5135b6689283"
+                "reference": "684e5b53f80b0879e92335301f612b006f0f73f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-mockery/zipball/876247d15f91df08240d00dac69c5135b6689283",
-                "reference": "876247d15f91df08240d00dac69c5135b6689283",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-mockery/zipball/684e5b53f80b0879e92335301f612b006f0f73f4",
+                "reference": "684e5b53f80b0879e92335301f612b006f0f73f4",
                 "shasum": ""
             },
             "require": {
                 "composer/package-versions-deprecated": "^1.10",
                 "composer/semver": "^1.4 || ^2.0 || ^3.0",
                 "mockery/mockery": "^1.0",
-                "php": "~7.4 || ~8.0 || ~8.1 || ~8.2",
-                "vimeo/psalm": "dev-master || ^5.0@rc || ^5.0"
+                "php": ">=8.1",
+                "vimeo/psalm": "dev-master || ^5.0 || ^6 || ^7"
             },
             "require-dev": {
                 "codeception/codeception": "^4.1.9",
@@ -10929,9 +10929,9 @@
             "description": "Psalm plugin for Mockery",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-mockery/issues",
-                "source": "https://github.com/psalm/psalm-plugin-mockery/tree/1.1.0"
+                "source": "https://github.com/psalm/psalm-plugin-mockery/tree/1.2.1"
             },
-            "time": "2022-11-25T07:16:18+00:00"
+            "time": "2025-03-20T10:51:18+00:00"
         },
         {
             "name": "psalm/plugin-phpunit",
