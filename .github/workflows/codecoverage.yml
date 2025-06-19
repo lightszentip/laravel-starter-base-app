@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - uses: shivammathur/setup-php@9e72090525849c5e82e596468b86eb55e9cc5401 # v2
+      - uses: shivammathur/setup-php@0f7f1d08e3e32076e51cae65eb0b0c871405b16e # v2
         with:
           php-version: ${{ matrix.php-versions }}
           extensions: mbstring, intl
@@ -27,7 +27,7 @@ jobs:
         run: composer install --optimize-autoloader --prefer-dist
       - run: ./vendor/bin/pest --coverage --coverage-html coverage.html
       - name: Archive code coverage results
-        uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08 # v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: code-coverage-report-${{ matrix.php-versions }}
           path: ./coverage.html
