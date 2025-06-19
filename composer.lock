@@ -9564,16 +9564,16 @@
         },
         {
             "name": "psalm/plugin-laravel",
-            "version": "v2.11.0",
+            "version": "v2.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-laravel.git",
-                "reference": "ffd51399b672959331ed3ef4eaae13984474e2f0"
+                "reference": "c7910a1e199fe26812df2381ede086aaa256d222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-laravel/zipball/ffd51399b672959331ed3ef4eaae13984474e2f0",
-                "reference": "ffd51399b672959331ed3ef4eaae13984474e2f0",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-laravel/zipball/c7910a1e199fe26812df2381ede086aaa256d222",
+                "reference": "c7910a1e199fe26812df2381ede086aaa256d222",
                 "shasum": ""
             },
             "require": {
@@ -9593,7 +9593,7 @@
                 "php": "^8.1",
                 "symfony/console": "^6.0 || ^7.0",
                 "symfony/finder": "^6.0 || ^7.0",
-                "vimeo/psalm": "^5.20"
+                "vimeo/psalm": "^5.20|^6"
             },
             "require-dev": {
                 "laravel/framework": "^10.48 || ^11.0",
@@ -9630,9 +9630,9 @@
             "homepage": "https://github.com/psalm/psalm-plugin-laravel",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-laravel/issues",
-                "source": "https://github.com/psalm/psalm-plugin-laravel/tree/v2.11.0"
+                "source": "https://github.com/psalm/psalm-plugin-laravel/tree/v2.12.1"
             },
-            "time": "2024-03-19T21:40:03+00:00"
+            "time": "2025-02-16T19:03:28+00:00"
         },
         {
             "name": "psalm/plugin-mockery",
