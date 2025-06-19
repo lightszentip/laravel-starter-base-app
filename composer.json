@@ -24,7 +24,7 @@
         "bezhansalleh/filament-shield": "^3.3",
         "filament/filament": "^v3.2",
         "graham-campbell/security": "11.2",
-        "laravel/framework": "^v11",
+        "laravel/framework": "^v12.0.0",
         "laravel/jetstream": "^v5.3",
         "laravel/pennant": "^1.16",
         "laravel/sanctum": "^v4.1",
