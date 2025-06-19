@@ -31,7 +31,7 @@
         "laravel/tinker": "^v2.10",
         "livewire/livewire": "^v3.6",
         "livewire/volt": "^1.7",
-        "robsontenorio/mary": "^1.41"
+        "robsontenorio/mary": "^2.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
