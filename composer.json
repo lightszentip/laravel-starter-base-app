@@ -15,7 +15,7 @@
     "require": {
         "php": "^8.2",
         "graham-campbell/security": "11.2",
-        "laravel/framework": "^v11.45",
+        "laravel/framework": "^v12.0.0",
         "laravel/pennant": "^v1.17",
         "laravel/tinker": "^v2.10",
         "laravel/jetstream": "^v5.3",
