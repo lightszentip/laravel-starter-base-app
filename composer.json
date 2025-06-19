@@ -22,7 +22,7 @@
         "laravel/sanctum": "^v4.1",
         "livewire/livewire": "^3.6",
         "livewire/volt": "^1.6",
-        "robsontenorio/mary": "^1.41"
+        "robsontenorio/mary": "^2.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
