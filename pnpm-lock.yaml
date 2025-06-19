@@ -653,6 +653,6 @@ snapshots:
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.3
-      rollup: 4.40.1
+      rollup: 4.31.0
     optionalDependencies:
       fsevents: 2.3.3
