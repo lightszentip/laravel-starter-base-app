@@ -23,8 +23,8 @@ class EditRole extends EditRecord
     }
 
     /**
-     * @param array $data
      * @SuppressWarnings(PHPMD)
+     *
      * @return array|mixed[]
      */
     protected function mutateFormDataBeforeSave(array $data): array
@@ -49,7 +49,7 @@ class EditRole extends EditRecord
                 'guard_name' => $this->data['guard_name'],
             ]));
         });
-        //@phpstan-ignore-next-line
+        // @phpstan-ignore-next-line
         $this->record->syncPermissions($permissionModels);
     }
 }

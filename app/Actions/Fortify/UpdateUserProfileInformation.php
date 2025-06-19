@@ -14,7 +14,8 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
     /**
      * Validate and update the given user's profile information.
      *
-     * @param array<string, mixed> $input
+     * @param  array<string, mixed>  $input
+     *
      * @SuppressWarnings(PHPMD)
      *
      * @throws ValidationException

@@ -6,27 +6,25 @@ use App\Filament\Resources\TeamResource\Pages;
 use App\Filament\Resources\TeamResource\RelationManagers;
 use App\Models\Team;
 use App\Models\User;
-use Filament\Actions\EditAction;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Livewire\Component;
 
 class TeamResource extends Resource
 {
     protected static ?string $model = Team::class;
 
     protected static ?string $navigationLabel = 'Teams';
+
     protected static ?string $navigationIcon = 'heroicon-o-users';
+
     protected static ?int $navigationSort = 3;
 
     protected static ?string $slug = 'teams';
-    protected static ?string $navigationGroup = 'Management';
 
+    protected static ?string $navigationGroup = 'Management';
 
     public static function form(Form $form): Form
     {

@@ -15,8 +15,8 @@ class CreateRole extends CreateRecord
     public Collection $permissions;
 
     /**
-     * @param array $data
      * @SuppressWarnings(PHPMD)
+     *
      * @return array|mixed[]
      */
     protected function mutateFormDataBeforeCreate(array $data): array
@@ -41,7 +41,7 @@ class CreateRole extends CreateRecord
                 'guard_name' => $this->data['guard_name'],
             ]));
         });
-        //@phpstan-ignore-next-line
+        // @phpstan-ignore-next-line
         $this->record->syncPermissions($permissionModels);
     }
 }

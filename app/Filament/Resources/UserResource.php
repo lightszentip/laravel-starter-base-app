@@ -33,7 +33,7 @@ class UserResource extends Resource
                 Forms\Components\TextInput::make('password')
                     ->password()
                     ->revealable(filament()->arePasswordsRevealable())
-                    ->required(fn($operation) => $operation === 'create')
+                    ->required(fn ($operation) => $operation === 'create')
                     ->autocomplete('new-password')
                     ->dehydrated(fn ($state): bool => filled($state))
                     ->dehydrateStateUsing(fn ($state): string => Hash::make($state))
@@ -97,6 +97,7 @@ class UserResource extends Resource
 
     /**
      * @SuppressWarnings(PHPMD)
+     *
      * @return array|PageRegistration[]
      */
     public static function getPages(): array

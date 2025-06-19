@@ -5,8 +5,6 @@ namespace App\Filament\Resources\TeamResource\Pages;
 use App\Filament\Resources\TeamResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
-use Livewire\Attributes\On;
-use function Laravel\Prompts\table;
 
 class EditTeam extends EditRecord
 {
@@ -18,5 +16,4 @@ class EditTeam extends EditRecord
             Actions\DeleteAction::make(),
         ];
     }
-
 }

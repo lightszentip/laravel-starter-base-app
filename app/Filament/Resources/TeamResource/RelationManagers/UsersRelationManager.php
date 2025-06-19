@@ -3,17 +3,12 @@
 namespace App\Filament\Resources\TeamResource\RelationManagers;
 
 use Filament\Forms;
-use Filament\Tables;
 use Filament\Resources\RelationManagers\RelationManager;
-use Livewire\Attributes\On;
-use Livewire\Component;
+use Filament\Tables;
 
 class UsersRelationManager extends RelationManager
 {
-
     protected static string $relationship = 'users';
-
-
 
     public function form(Forms\Form $form): Forms\Form
     {
@@ -24,7 +19,6 @@ class UsersRelationManager extends RelationManager
                     ->required(),
             ]);
     }
-
 
     public function table(Tables\Table $table): Tables\Table
     {
@@ -45,7 +39,4 @@ class UsersRelationManager extends RelationManager
             ])
             ->bulkActions([]);
     }
-
-
 }
-
