@@ -25,7 +25,7 @@ importers:
         version: 4.12.23(postcss@8.5.1)
       laravel-vite-plugin:
         specifier: 1.1.1
-        version: 1.1.1(vite@6.1.0(jiti@1.21.7)(yaml@2.7.0))
+        version: 1.1.1(vite@6.1.6(jiti@1.21.7)(yaml@2.7.0))
       postcss:
         specifier: 8.5.1
         version: 8.5.1
@@ -33,8 +33,8 @@ importers:
         specifier: 3.4.17
         version: 3.4.17
       vite:
-        specifier: 6.1.0
-        version: 6.1.0(jiti@1.21.7)(yaml@2.7.0)
+        specifier: 6.1.6
+        version: 6.1.6(jiti@1.21.7)(yaml@2.7.0)
 
 packages:
 
@@ -720,6 +720,10 @@ packages:
     resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postcss@8.5.3:
+    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
+    engines: {node: ^10 || ^12 || >=14}
+
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
@@ -822,8 +826,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@6.1.0:
-    resolution: {integrity: sha512-RjjMipCKVoR4hVfPY6GQTgveinjNuyLw+qruksLDvA5ktI1150VmcMBKmQaEWJhg/j6Uaf6dNCNA0AfdzUb/hQ==}
+  vite@6.1.6:
+    resolution: {integrity: sha512-u+jokLMwHVFUoUkfL+m/1hzucejL2639g9QXcrRdtN3WPHfW7imI83V96Oh1R0xVZqDjvcgp+7S8bSQpdVlmPA==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1313,10 +1317,10 @@ snapshots:
 
   jiti@1.21.7: {}
 
-  laravel-vite-plugin@1.1.1(vite@6.1.0(jiti@1.21.7)(yaml@2.7.0)):
+  laravel-vite-plugin@1.1.1(vite@6.1.6(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       picocolors: 1.1.1
-      vite: 6.1.0(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.1.6(jiti@1.21.7)(yaml@2.7.0)
       vite-plugin-full-reload: 1.2.0
 
   lilconfig@3.1.3: {}
@@ -1426,6 +1430,12 @@ snapshots:
   postcss-value-parser@4.2.0: {}
 
   postcss@8.5.1:
+    dependencies:
+      nanoid: 3.3.8
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.3:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
@@ -1576,10 +1586,10 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.1
 
-  vite@6.1.0(jiti@1.21.7)(yaml@2.7.0):
+  vite@6.1.6(jiti@1.21.7)(yaml@2.7.0):
     dependencies:
       esbuild: 0.24.2
-      postcss: 8.5.1
+      postcss: 8.5.3
       rollup: 4.30.1
     optionalDependencies:
       fsevents: 2.3.3
