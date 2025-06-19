@@ -21,35 +21,35 @@
         "php": "^8.2",
         "ext-intl": "*",
         "ext-zip": "*",
-        "bezhansalleh/filament-shield": "^3.3.4",
-        "filament/filament": "^v3.2.133",
+        "bezhansalleh/filament-shield": "^3.3",
+        "filament/filament": "^v3.2",
         "graham-campbell/security": "11.2",
-        "laravel/framework": "^v11.37.0",
-        "laravel/jetstream": "^v5.3.4",
-        "laravel/pennant": "^1.14",
-        "laravel/sanctum": "^v4.0.7",
-        "laravel/tinker": "^v2.10.0",
-        "livewire/livewire": "^v3.5.12",
-        "livewire/volt": "^1.6",
-        "robsontenorio/mary": "^1.41.5"
+        "laravel/framework": "^v11",
+        "laravel/jetstream": "^v5.3",
+        "laravel/pennant": "^1.16",
+        "laravel/sanctum": "^v4.1",
+        "laravel/tinker": "^v2.10",
+        "livewire/livewire": "^v3.6",
+        "livewire/volt": "^1.7",
+        "robsontenorio/mary": "^1.41"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "fakerphp/faker": "^v1.24.1",
-        "larastan/larastan": "^v3.0.2",
-        "laravel/pint": "^1.19",
-        "laravel/sail": "^1.39",
+        "fakerphp/faker": "^v1.24",
+        "larastan/larastan": "^v3.4",
+        "laravel/pint": "^v1.22",
+        "laravel/sail": "^v1.43",
         "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.5",
-        "pestphp/pest": "^2.36",
-        "pestphp/pest-plugin-laravel": "^2.4",
-        "phpat/phpat": "^0.11.2",
+        "nunomaduro/collision": "^v8.8",
+        "pestphp/pest": "^v3.8",
+        "pestphp/pest-plugin-laravel": "^v3.2",
+        "phpat/phpat": "^0.11",
         "phpmd/phpmd": "@stable",
-        "psalm/plugin-laravel": "^v2.11.0",
-        "psalm/plugin-mockery": "^1.1",
-        "psalm/plugin-phpunit": "^0.19.0",
-        "squizlabs/php_codesniffer": "3.12.2",
-        "vimeo/psalm": "5.26.1"
+        "psalm/plugin-laravel": "^v3.0",
+        "psalm/plugin-mockery": "^1.2",
+        "psalm/plugin-phpunit": "^0.19.5",
+        "squizlabs/php_codesniffer": "3.13.2",
+        "vimeo/psalm": "6.12.0"
     },
     "autoload": {
         "psr-4": {
@@ -107,9 +107,6 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true,
             "phpro/grumphp-shim": true
-        },
-        "platform": {
-            "php": "8.2"
         }
     },
     "minimum-stability": "stable",
