@@ -24,4 +24,6 @@ jobs:
           ini-values: post_max_size=256M, max_execution_time=180
           coverage: xdebug
       - uses: php-actions/composer@8a65f0d3c6a1d17ca4800491a40b5756a4c164f3 # v6 # or alternative dependency management
+        with:
+          php-version: ${{ matrix.php-versions }}
       - run: ./vendor/bin/phpstan analyse --memory-limit=2G app tests
