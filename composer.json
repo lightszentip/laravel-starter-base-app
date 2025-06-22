@@ -22,16 +22,15 @@
         "ext-intl": "*",
         "ext-zip": "*",
         "bezhansalleh/filament-shield": "^3.3",
-        "filament/filament": "^v3.2",
-        "graham-campbell/security": "11.2",
-        "laravel/framework": "^v11",
+        "filament/filament": "^v3.3",
+        "laravel/framework": "^v12",
         "laravel/jetstream": "^v5.3",
-        "laravel/pennant": "^1.16",
+        "laravel/pennant": "^1.17",
         "laravel/sanctum": "^v4.1",
         "laravel/tinker": "^v2.10",
         "livewire/livewire": "^v3.6",
         "livewire/volt": "^1.7",
-        "robsontenorio/mary": "^1.41"
+        "robsontenorio/mary": "^2.4"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
