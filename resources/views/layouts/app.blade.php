@@ -26,7 +26,7 @@
                 </label>
             </x-slot:brand>
 
-            <x-slot:actions class="flex !gap-1 lg:!gap-4">
+            <x-slot:actions class="flex gap-1! lg:gap-4!">
             <!-- Logo -->
             <div class="shrink-0 flex items-center">
                 <a href="{{ route('dashboard') }}">
