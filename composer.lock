@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9976b6107087f6249f9a04f4703f8d20",
+    "content-hash": "802f87d6d8b86a9517dc9698db948eb4",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4419,16 +4419,16 @@
         },
         {
             "name": "robsontenorio/mary",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsontenorio/mary.git",
-                "reference": "a6d42c9468cc9bdee3e0f6853571fcf965177f27"
+                "reference": "6161751ac7dc3fa9100e12d0a7f5e1a2a94539be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsontenorio/mary/zipball/a6d42c9468cc9bdee3e0f6853571fcf965177f27",
-                "reference": "a6d42c9468cc9bdee3e0f6853571fcf965177f27",
+                "url": "https://api.github.com/repos/robsontenorio/mary/zipball/6161751ac7dc3fa9100e12d0a7f5e1a2a94539be",
+                "reference": "6161751ac7dc3fa9100e12d0a7f5e1a2a94539be",
                 "shasum": ""
             },
             "require": {
@@ -4494,7 +4494,7 @@
             ],
             "support": {
                 "issues": "https://github.com/robsontenorio/mary/issues",
-                "source": "https://github.com/robsontenorio/mary/tree/2.4.2"
+                "source": "https://github.com/robsontenorio/mary/tree/2.4.3"
             },
             "funding": [
                 {
@@ -4502,7 +4502,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-04T15:20:48+00:00"
+            "time": "2025-06-24T15:34:03+00:00"
         },
         {
             "name": "symfony/clock",
@@ -9487,16 +9487,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v8.8.1",
+            "version": "v8.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "44ccb82e3e21efb5446748d2a3c81a030ac22bd5"
+                "reference": "60207965f9b7b7a4ce15a0f75d57f9dadb105bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/44ccb82e3e21efb5446748d2a3c81a030ac22bd5",
-                "reference": "44ccb82e3e21efb5446748d2a3c81a030ac22bd5",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/60207965f9b7b7a4ce15a0f75d57f9dadb105bdb",
+                "reference": "60207965f9b7b7a4ce15a0f75d57f9dadb105bdb",
                 "shasum": ""
             },
             "require": {
@@ -9582,7 +9582,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2025-06-11T01:04:21+00:00"
+            "time": "2025-06-25T02:12:12+00:00"
         },
         {
             "name": "orchestra/sidekick",
@@ -14086,16 +14086,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.12.0",
+            "version": "6.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "cf420941d061a57050b6c468ef2c778faf40aee2"
+                "reference": "e71404b0465be25cf7f8a631b298c01c5ddd864f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/cf420941d061a57050b6c468ef2c778faf40aee2",
-                "reference": "cf420941d061a57050b6c468ef2c778faf40aee2",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/e71404b0465be25cf7f8a631b298c01c5ddd864f",
+                "reference": "e71404b0465be25cf7f8a631b298c01c5ddd864f",
                 "shasum": ""
             },
             "require": {
@@ -14200,7 +14200,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2025-05-28T12:52:06+00:00"
+            "time": "2025-07-04T09:56:28+00:00"
         }
     ],
     "aliases": [],
