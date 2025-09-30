@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "baseBranches": [
+  "baseBranchPatterns": [
     "main",
     "jetstream",
     "filamentphp"
@@ -12,7 +12,9 @@
     ":automergePatch"
   ],
   "separateMajorMinor": true,
-    "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "separateMultipleMajor": true,
   "separateMultipleMinor": true,
   "lockFileMaintenance": {
